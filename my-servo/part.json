@@ -2,6 +2,8 @@
   "name": "Custom Servo",
   "version": 1,
   "author": "you",
+  "width": 120,
+  "height": 120,
   "params": {
     "angle": { "type": "number", "default": 0 }
   },
