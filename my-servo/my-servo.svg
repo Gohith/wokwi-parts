@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 120 120">
+  <!-- Servo body -->
+  <circle cx="60" cy="60" r="40" fill="#444" stroke="#222" stroke-width="3"/>
+
+  <!-- Shaft -->
+  <circle cx="60" cy="60" r="6" fill="#222"/>
+
+  <!-- Rotating arm -->
+  <line id="arm"
+        x1="60" y1="60"
+        x2="110" y2="60"
+        stroke="yellow"
+        stroke-width="6"
+        stroke-linecap="round"/>
+</svg>
