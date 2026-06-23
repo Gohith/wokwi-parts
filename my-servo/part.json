@@ -1,13 +1,16 @@
 {
-  "name": "Test Part",
+  "name": "Custom Servo",
   "version": 1,
   "author": "you",
-  "width": 80,
-  "height": 80,
+  "width": 120,
+  "height": 120,
+  "params": {
+    "angle": { "type": "number", "default": 0 }
+  },
   "pins": [
     { "name": "rx", "direction": "input" }
   ],
   "pinLocations": {
-    "rx": { "x": 40, "y": 40 }
+    "rx": { "x": 10, "y": 60 }
   }
 }
