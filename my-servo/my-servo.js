@@ -3,11 +3,9 @@ export function init(state) {
 }
 
 export function update({ angle }, state) {
-  state.angle = angle;
-
   const arm = state.svg.getElementById("arm");
-  arm.setAttribute(
-    "transform",
-    `rotate(${state.angle} 60 60)`
-  );
+  if (!arm) return;
+
+  state.angle = angle;
+  arm.setAttribute("transform", `rotate(${state.angle} 60 60)`);
 }
